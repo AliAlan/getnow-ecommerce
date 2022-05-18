@@ -1,6 +1,9 @@
 const hamburger = document.querySelector(".hamburger");
 const close = document.querySelector(".close");
 const mobileSidebar = document.querySelector(".mobile-sidebar");
+const productImage = document.querySelector(".product-image");
+const productName = document.querySelector(".product-name");
+const productPrice = document.querySelector(".product-price");
 
 hamburger.addEventListener("click", () => {
   mobileSidebar.style.clipPath = "circle(141.4% at 100% 100%)";
@@ -16,10 +19,3 @@ fetch("https://dummyjson.com/products")
       console.log(element.title);
     });
   });
-
-console.log("aldiadla");
-console.log("aldiadla");
-console.log("adadaadiadla");
-console.log("aldiadla");
-
-// adadadgit
