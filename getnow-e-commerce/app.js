@@ -16,4 +16,11 @@ fetch("https://dummyjson.com/products")
       console.log(element.title);
     });
   });
-// alskndsnaf
+
+// aösfğöasğpdföasfğöp
+//
+console.log("asdasd");
+console.log("asdasd");
+console.log("asdasd");
+console.log("asdasd");
+console.log("asdasd");
