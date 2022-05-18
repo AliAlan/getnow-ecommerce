@@ -17,4 +17,9 @@ fetch("https://dummyjson.com/products")
     });
   });
 
-// adadad
+console.log("aldiadla");
+console.log("aldiadla");
+console.log("adadaadiadla");
+console.log("aldiadla");
+
+// adadadgit
