@@ -263,7 +263,6 @@ main {
   margin: 1rem;
   border: 1.7px solid #1782cf;
   border-radius: 10px;
-  transform: scale(0.7);
 }
 .product-description-container h2 {
   font-size: 24px;
@@ -294,6 +293,8 @@ main {
 }
 .product-shopping-tools {
   padding: 0.5rem 0 0.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .amount-container {
