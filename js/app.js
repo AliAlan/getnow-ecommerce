@@ -8,18 +8,3 @@ hamburger.addEventListener("click", () => {
 close.addEventListener("click", () => {
   mobileSidebar.style.clipPath = "circle(0% at 100% 100%)";
 });
-
-fetch("https://dummyjson.com/products")
-  .then((res) => res.json())
-  .then((data) => {
-    data.products.forEach((element) => {
-      console.log(element.title);
-    });
-  });
-
-console.log("aldiadla");
-console.log("aldiadla");
-console.log("adadaadiadla");
-console.log("aldiadla");
-
-// adadadgit
